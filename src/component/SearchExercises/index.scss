@@ -1,0 +1,75 @@
+.searchExo {
+    animation: fadeIn 1s 1.8s backwards;
+
+    p {
+        animation: fadeIn 1.2s 1.8s backwards;
+        animation: pulse 1s;
+        font-family: La Belle Aurore;
+    }
+
+
+
+}
+
+.exercisesone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+
+
+    .card {
+
+
+        width: 300px;
+        height: 400px;
+        background-color: #ff2625;
+        background-color: rgba(97, 91, 91, 0.5);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 1);
+        display: block;
+        align-items: center;
+        margin: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 10px;
+
+        .card-img {
+
+            width: 270px;
+            height: 250px;
+            overflow-x: hidden;
+            margin: 0.8rem;
+
+
+
+        }
+
+        .content {
+            margin-top: 1rem;
+            margin-left: 1rem;
+
+
+            h5 {
+                font-family: Helvetica Neue;
+                color: #fff;
+
+                text-overflow: 10;
+                font-size: 15px;
+
+                span {
+                    color: #000;
+                    margin-right: 1rem;
+                }
+
+            }
+        }
+
+
+
+    }
+
+
+
+
+
+}
