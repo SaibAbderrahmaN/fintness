@@ -183,27 +183,12 @@ $primary-color: #FF2625;
 
 }
 
-@media (max-width:400px) {
-    .main-sections {
-        display: block;
-        margin-left: 5rem;
-        align-items: center;
-        justify-content: center;
-        margin: 2rem 2rem;
-        text-align: center;
 
 
-        .home-photo {
-            display: none;
-        }
-
-    }
-
-    .home-desception {
-        h3 {
-            margin-left: -3rem;
-            font-size: 25px !important;
-            margin-top: 2rem;
-        }
+.home-desception {
+    h3 {
+        margin-left: -3rem;
+        font-size: 25px !important;
+        margin-top: 2rem;
     }
 }

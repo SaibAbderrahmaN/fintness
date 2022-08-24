@@ -43,7 +43,7 @@ const SearchExercises = () => {
 
   return (
     <Stack className='searchExo' alignItems="center" mt="37px" justifyContent="center" p="20px">
-      <Typography variant="p" fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '30px' } }} mb="49px" textAlign="center">
+      <Typography variant="h5" fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '30px' } }} mb="49px" textAlign="center">
         Awesome Exercises You <br /> Should Know
       </Typography>
       

@@ -27,8 +27,8 @@ const Home = () => {
         <Typography mb='1rem' mt='1rem' variant='h5' >check out the most effective exercises personilzed to you</Typography>
 
 
-        <Link to='contact' className='btn'>
-         <Typography mt='1rem' sx={{fontSize:{lg:'20px',xs:'10px'}}} variant='span'> contact </Typography><i></i>
+        <Link to='exercises' className='btn'>
+         <Typography mt='1rem' sx={{fontSize:{lg:'20px',xs:'10px'}}} variant='span'> check </Typography><i></i>
         </Link>
         
         

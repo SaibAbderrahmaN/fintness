@@ -5,6 +5,8 @@ import Contact from './component/contact'
 import Exercises from './component/exercises/index'
 import "./App.scss"
 import { Route, Routes } from 'react-router-dom'
+import Products from './component/Products'
+import Classes from './component/Classes'
 
 
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/exercises' element={<Exercises />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/Products' element={<Products />} />
+        <Route path='/classes' element={<Classes />} />
 
 
 

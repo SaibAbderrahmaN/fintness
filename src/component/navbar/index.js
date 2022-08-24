@@ -5,7 +5,8 @@ import {NavLink} from 'react-router-dom'
 
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faSuitcase, faExchange, faFireExtinguisher, faStethoscope } from '@fortawesome/free-solid-svg-icons'
+
 
 
 const Navbar = () => {
@@ -45,22 +46,23 @@ const toggleTab=(index)=>{
 
         </li>
         <li className={`list ${ Switchtoggled===3 ? 'active' :'null'}`}>
-        <NavLink to='/Portfolio' onClick={()=>toggleTab(3)} >
+        <NavLink to='/Products' onClick={()=>toggleTab(3)} >
          <span className='icon'><FontAwesomeIcon  icon={faSuitcase} /></span>
 
-            <span className='text'>portfolio</span>
+            <span className='text'>products</span>
           </NavLink>
 
         </li>
         <li className={`list ${ Switchtoggled===4 ? 'active' :'null'}`}>
-        <NavLink to='/photos' onClick={()=>toggleTab(4)} >
+        <NavLink to='/classes' onClick={()=>toggleTab(4)} >
 
-          <span className='icon'><FontAwesomeIcon  icon={faEnvelope} /></span>
+          <span className='icon'><FontAwesomeIcon  icon={faStethoscope} /></span>
 
-            <span className='text'>photos</span>
+            <span className='text'>classes</span>
           </NavLink>
 
         </li>
+        
         <li className={`list ${ Switchtoggled===5 ? 'active' :'null'}`}>
         <NavLink to='/contact' onClick={()=>toggleTab(5)} >
 
